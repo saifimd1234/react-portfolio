@@ -35,6 +35,24 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import fastapi from './fastapi.png';
+import html5 from './html5.png';
+import github from './github.png';
+import numpy from './numpy.png';
+import pandas from './pandas.png';
+import python from './python.png';
+import seaborn from './seaborn.png';
+import mssql from './mssql.png';
+import mysql1 from './mysql1.png';
+import matplotlib from './matplotlib.png';
+import streamlit from './streamlit.png';
+import sklearn from './sklearn.png';
+import tableau from './tableau.png';
+import aws from './aws.png';
+import tailwind from './tailwind.png';
+import nextjs from './nextjs.png';
+import react from './react.png';
+import js from './js.png';
 
 export const assets = {
     user_image,
@@ -73,7 +91,25 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    fastapi,
+    html5,
+    github,
+    numpy,
+    pandas,
+    python,
+    seaborn,
+    mssql,
+    mysql1,
+    matplotlib,
+    streamlit,
+    sklearn,
+    tableau,
+    aws,
+    tailwind,
+    nextjs,
+    react,
+    js,
 };
 
 export const workData = [
@@ -113,5 +149,42 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    // --- Programming Languages ---
+    assets.python,
+    assets.js,
+
+    // --- Frontend Technologies ---
+    assets.html5,
+    assets.tailwind,
+    assets.react,
+    assets.nextjs,
+
+    // --- Backend Technologies ---
+    assets.fastapi,
+
+    // --- Databases ---
+    assets.mysql1,
+    assets.mssql,
+    assets.mongodb,
+
+    // --- Python Data Science Libraries ---
+    assets.numpy,
+    assets.pandas,
+    assets.sklearn,
+    assets.seaborn,
+    assets.matplotlib,
+    assets.streamlit,
+
+    // --- Data Visualization / BI Tools ---
+    assets.tableau,
+
+    // --- Cloud / DevOps ---
+    assets.aws,
+    assets.github,
+    assets.git,
+
+    // --- Tools / Editors ---
+    assets.vscode,
+    assets.figma,
+    assets.firebase
 ];
