@@ -26,15 +26,27 @@ const About = () => {
                     ))}
                 </ul>
 
-                <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
-                <ul className='flex items-center gap-3 sm:gap-5'>
-                    {toolsData.map((tool, index)=>(
-                        <li className='flex items-center justify-center w-12 sm:2-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
-                            <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
-                        </li>
-                    ))}
+                <h2 className="my-6 text-gray-700 font-Ovo text-xl sm:text-2xl md:text-3xl">Tools I use</h2>
+                <ul className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8">
+                {toolsData.map((tool, index) => (
+                    <li
+                    key={index}
+                    className="flex items-center justify-center 
+                                w-14 sm:w-16 aspect-square 
+                                border border-gray-400 
+                                rounded-lg cursor-pointer 
+                                p-2 sm:p-3 
+                                hover:-translate-y-1 
+                                transition duration-500 bg-white shadow-sm"
+                    >
+                    <Image
+                        src={tool}
+                        alt="Tool"
+                        className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                    </li>
+                ))}
                 </ul>
-                
             </div>
         </div>
     </div>
